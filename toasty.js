@@ -39,5 +39,4 @@ var toasty = (function () {
         //dan.style = "position:fixed;bottom:0;right:-" + i + "px;z-index:100;"; 
     }, 800)
 
-
 })();
