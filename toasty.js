@@ -1,8 +1,8 @@
 var toasty = (function () {
 
     var T = {
-        pic: 'https://portal.mhgi.net/portal/toastie/toasty.png',
-        audio: 'https://portal.mhgi.net/portal/toastie/toasty.mp3',
+        pic: 'toasty.png',
+        audio: 'toasty.mp3',
         style: 'position:fixed;bottom:0;right:0;z-index:100;'
     }
 
