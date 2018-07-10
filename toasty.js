@@ -11,7 +11,6 @@ var toasty = (function () {
     setTimeout(function () {
         (function () {
             var dan = document.getElementById('toaster');
-            //var elem = document.getElementById("myAnimation");
             var pos = 0;
             var id = setInterval(frame, 10);
 
