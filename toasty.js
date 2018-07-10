@@ -17,7 +17,7 @@ var toasty = (function () {
             function frame() {
                 if (pos == 200) {
                     if (pos > 199) {
-                        document.getElementById('toaster').remove();
+                        dan.remove();
                     }
                     clearInterval(id);
                 } else {
