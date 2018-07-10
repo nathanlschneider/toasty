@@ -4,11 +4,16 @@ var toasty = (function () {
         audio: 'toasty.mp3',
         style: 'position:fixed;bottom:0;right:0;z-index:100;'
     }
-    var elem = document.getElementById('splash-screen');
-    elem.insertAdjacentHTML('beforebegin', '<img id="toaster" style=' + T.style + ' src=' + T.pic + '>');
+
+    var elem = document.querySelector('body');
+    elem.setAttribute('id','docBody');
+    elem.insertAdjacentHTML('afterbegin', '<img id="toaster" style=' + T.style + ' src=' + T.pic + '>');
+        
     var audio = new Audio(T.audio);
     audio.play();
+    
     setTimeout(function () {
+        
         (function () {
             var dan = document.getElementById('toaster');
             var pos = 0;
